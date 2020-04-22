@@ -11,6 +11,7 @@ declare -a links=(
 for i in "${links[@]}"
   do
     xdg-open $i
+    sleep 2
   done
 
-exit 1
+exit 0
